@@ -1,38 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T10:04:03.212Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="yMsjUscysFD1z0e79or1" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.0">
   <diagram id="3228e29e-7158-1315-38df-8450db1d8a1d" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1173" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="21531" value="" style="ellipse;fillColor=#F08705;opacity=60;strokeColor=none;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="339.5" y="308.5" width="500" height="500" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21547" value="Fact_Flight_Loyalty_History" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="330" width="180" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="21532" value="" style="ellipse;fillColor=#12AAB5;opacity=60;strokeColor=none;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="179.5" y="18.5" width="500" height="500" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21548" value="&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Loyalty Number&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Total Flights&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Total Distance&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Accumulated Points&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Points Redeemed&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Dollar Cost&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Points Utilization Rate&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Carbon Footprint&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Date&lt;/strong&gt;&lt;/li&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fOc3BvcoLWmbWIKoE3KO-21547">
+          <mxGeometry y="50" width="180" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="21533" value="" style="ellipse;fillColor=#e85642;opacity=60;strokeColor=none;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="489.5" y="18.5" width="500" height="500" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21550" value="Dim_Client" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="330" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="21534" value="Invention" style="text;fontSize=24;align=center;verticalAlign=middle;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="299.5" y="228.5" width="190" height="70" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21551" value="&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Country&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Province&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;City&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Postal Code&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Gender&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Salary&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Marital Status&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Loyalty Card&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Customer Lifetime Value (CLV)&lt;/strong&gt;&lt;/li&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fOc3BvcoLWmbWIKoE3KO-21550">
+          <mxGeometry y="50" width="210" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="21535" value="Revolution" style="text;fontSize=24;align=center;verticalAlign=middle;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="699.5" y="228.5" width="190" height="70" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21552" value="&lt;p&gt;&lt;strong&gt;Dim_Date:&lt;/strong&gt;&lt;/p&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="580" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="21536" value="Tradition" style="text;fontSize=24;align=center;verticalAlign=middle;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="499.5" y="558.5" width="190" height="70" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21553" value="&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Date&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Year&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Month&lt;/strong&gt;&lt;/li&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fOc3BvcoLWmbWIKoE3KO-21552">
+          <mxGeometry y="50" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="21537" value="Military" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="569.5" y="198.5" width="40" height="40" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21555" value="&lt;p&gt;Dim_Geography&lt;/p&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="170" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="21538" value="Conflict" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="449.5" y="418.5" width="40" height="40" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21556" value="&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Country&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Province&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;City&lt;/strong&gt;&lt;/li&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fOc3BvcoLWmbWIKoE3KO-21555">
+          <mxGeometry y="50" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="21539" value="Chaos" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="699.5" y="418.5" width="40" height="40" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21559" value="&lt;p&gt;Dim_Loyalty_Program&lt;/p&gt;" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="365" width="210" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="21540" value="Balance" style="text;align=center;html=1;fontColor=#FFFFFF;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="569.5" y="348.5" width="40" height="40" as="geometry" />
+        <mxCell id="fOc3BvcoLWmbWIKoE3KO-21560" value="&lt;li&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Loyalty Card&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Enrollment Type&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Enrollment Year&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Enrollment Month&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Cancellation Year&lt;/strong&gt;&lt;/li&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="fOc3BvcoLWmbWIKoE3KO-21559">
+          <mxGeometry y="50" width="210" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
