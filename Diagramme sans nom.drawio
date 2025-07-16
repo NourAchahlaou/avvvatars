@@ -244,9 +244,6 @@
         <mxCell id="Q0gHec1dOTDscJzV-lCu-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=9;" edge="1" parent="Q0gHec1dOTDscJzV-lCu-90" source="Q0gHec1dOTDscJzV-lCu-92" target="Q0gHec1dOTDscJzV-lCu-92">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Q0gHec1dOTDscJzV-lCu-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q0gHec1dOTDscJzV-lCu-103" target="Q0gHec1dOTDscJzV-lCu-48">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
