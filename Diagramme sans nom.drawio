@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mSiZPAVmcZEvP_ga92HV-56" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="-580" width="1230" height="1210" as="geometry" />
-        </mxCell>
         <mxCell id="CNEqg94M2z1kT1-otJSF-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_3-2965/docker-1335.svg" parent="1" vertex="1">
           <mxGeometry x="476" y="66" width="24" height="24" as="geometry" />
         </mxCell>
